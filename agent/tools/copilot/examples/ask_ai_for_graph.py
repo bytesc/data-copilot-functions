@@ -19,6 +19,7 @@ def func(data):
     import matplotlib
     import matplotlib.pyplot as plt
     plt.rcParams['font.family'] = 'SimHei' 
+    plt.rcParams['axes.unicode_minus'] =False
     # please keep the code above!
     # generate code to perform operations here
     return path
