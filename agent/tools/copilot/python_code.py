@@ -77,7 +77,8 @@ Remind:
 2. The function should not be called, do not print anything in the function.
 3. Please import the module you need, modules must be imported inside the function.
 4. Do not mock any data !!! Do not make any example input like real data!!!
-5. Do not assign any example input or default value for user to replace with actual data!!! use None instead
+5. Never use `input()` in code !!! Never use `input()` in code !!!
+6. Do not assign any example input or default value for user to replace with actual data!!! use None instead
 """
 
     final_prompt = pre_prompt + question + "\n" + end_prompt
