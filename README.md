@@ -1,5 +1,4 @@
-# smart class
-
+# data copilot functions
 
 ✨ **基于代码生成和函数调用(function call)的大语言模型(LLM)智能体**
 
